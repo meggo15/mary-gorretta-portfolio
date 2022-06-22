@@ -87,6 +87,274 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+
+body {
+  background-color: #ffffff;
+  color: #453E4F;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+ 
+ul, 
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h1 {
+  font-family: 'Alike', serif;
+  font-size: 1.75em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Alike', serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+  width: 100%;
+  font-weight: 400;
+}
+ 
+h3 {
+  font-family: 'Alike', serif;
+  font-size: 1.75em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+h4 {
+  font-family: 'Alike', serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+  width: 100%;
+}
+ 
+p 
+li { font-size: .875em;
+  line-height: 1.285;
+}
+ 
+img {
+ width: 100%;
+}
+
+span {
+  font-weight: bold;
+}
+ 
+figure {
+ margin: 0;
+}
+ 
+address {
+ font-style: normal;
+}
+ 
+.content-wrapper {
+  width: 85%;
+}
+
+/* -------------------- Base Header Styles -------------------- */
+
+header {
+  background-color: #e2e3ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+  padding: 30px 0;
+}
+
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .home-title {
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
+header h1 {
+  width: 100%;
+}
+
+header h2 {
+  width: 100%
+}
+/* -------------------- Base Footer Styles -------------------- */
+
+footer {
+  background-color: #e2e3ed;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 60px 0;
+}
+
+
+footer .contact-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social-icons {
+  background-color: #453E4F;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+
+footer .copyright {
+  margin: 60px 0;
+}
+
+/* -------------------- Mobile Styles -------------------- */
+
+/* Portfolio */
+
+#work,
+#skills {
+  width: 100%;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.home-portfolio-piece {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-portfolio-piece h4 {
+  font-weight: bold;
+}
+
+.home-portfolio-piece figure {
+  width: 100%;
+}
+
+.portfolio h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.portfolio h3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+ /* Skills */
+
+ #skills { 
+  background-color: #e2e3ed;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#skills h4 {
+  margin: 40px 0 40px 0;
+  font-weight: bold;
+}
+.language-wrapper p,
+.tool-wrapper p {
+  background-color: #E9B14C;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 15px 0;
+  margin: 20px 0;
+}
+
+
+/* About */
+#about {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+#profile-image {
+  width: 90%;
+}
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
