@@ -267,6 +267,10 @@ figure {
   margin: 0 0 60px 0;
 }
 
+.contact-follow {
+  margin: 0 0 60px 0;
+}
+
 .contact-title {
   margin: 0 0 40px 0;
 }
@@ -632,6 +636,10 @@ footer .social-icons li i {
     margin: 80px 0;
   }
 
+  .contact-follow {
+    margin: 80px 0;
+  }
+
   .contact-title {
     margin: 0 0 30px 0;
   }
@@ -726,6 +734,10 @@ footer .social-icons li i {
     width: 50%;
   }
 
+  footer .contact-follow {
+    width: 50%;
+  }
+
   footer ul {
     display: flex;
     justify-content: space-between;
@@ -736,7 +748,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   footer .social-icons li i {
@@ -876,7 +888,11 @@ footer .social-icons li i {
   }
 
   .contact-info {
-    margin: 80px 0 80px 0;
+    margin: 80px 0 40px 0;
+  }
+
+  .contact-follow {
+    margin: 80px 0 40px 0;
   }
 
   .contact-title {
@@ -947,7 +963,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
