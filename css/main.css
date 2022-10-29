@@ -87,7 +87,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* General Styles */
  
 html {
 	font-size: 16px;
@@ -117,6 +116,7 @@ h1 {
   font-size: 1.75em;
   line-height: 1.5;
   width: 100%;
+  margin: 0;
 }
 
 h2 {
@@ -125,6 +125,9 @@ h2 {
   line-height: 1.5;
   width: 100%;
   font-weight: 400;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
  
 h3 {
@@ -132,6 +135,8 @@ h3 {
   font-size: 1.75em;
   line-height: 1.5;
   width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -139,11 +144,14 @@ h4 {
   font-size: 1.25em;
   line-height: 1.5;
   width: 100%;
+  margin: 0;
+  margin: 0 0 40px 0;
 }
  
 p 
 li { font-size: .875em;
   line-height: 1.285;
+  margin: 0;
 }
  
 img {
@@ -181,19 +189,6 @@ footer {
   width: 100%;
 }
 
-/* -------------------- Margin and Padding Styles -------------------- */
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 header {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -220,19 +215,6 @@ nav {
 
 footer {
   padding: 60px 0;
-}
-
-h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-h3 {
-  margin-bottom: 20px;
-}
-
-h4 {
-  margin: 0 0 40px 0;
 }
 
 .project-description {
@@ -279,7 +261,7 @@ figure {
   margin-bottom: 60px;
 }
 
-/* -------------------- Base Header Styles -------------------- */
+/* -------------------- Header -------------------- */
 
 header {
   background-color: #e2e3ed;
@@ -290,7 +272,6 @@ header nav ul li {
   font-size: .75em;
   font-weight: bold;
   margin-bottom: 20px;
-  
 }
 
 nav ul {
@@ -316,7 +297,6 @@ header h2 {
 
 /* -------------------- Mobile Styles -------------------- */
 
-/* Portfolio */
 
 #work,
 #skills
@@ -331,7 +311,7 @@ header h2 {
   flex-flow: row wrap;
 }
 
-.home-portfolio-piece {
+.portfolio {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -339,7 +319,7 @@ header h2 {
   align-items: center;
 }
 
-.home-portfolio-piece h4 {
+.portfolio h4 {
   font-weight: bold;
 }
 
@@ -352,7 +332,6 @@ header h2 {
   border-radius: 30px;
 }
 
- /* Skills */
 
  #skills { 
   background-color: #e2e3ed;
@@ -376,11 +355,10 @@ header h2 {
   margin: 20px 0;
 }
 
-.tool {
+.stack {
   width: 100%;
 }
 
-/* About */
 #about {
   width: 100%;
 }
@@ -530,12 +508,10 @@ footer .social-icons li i {
     /*------------------------Tablet styles here----------------------*/
 
 
-  /* General styles */
   .content-wrapper {
     max-width: 640px;
   }
 
-  /* font styles */
   h1 {
     font-size: 2.5rem;
   }
@@ -560,8 +536,6 @@ footer .social-icons li i {
     font-size: 1rem;
   }
 
-  /* element margins */
-  /* the list element have 20px of bottom margin already */
   header {
     padding-top: 60px;
     padding-bottom: 80px;
@@ -571,7 +545,6 @@ footer .social-icons li i {
     margin: 0 0 80px 0;
   }
 
-  /*#work */
   #work {
     padding-top: 80px;
   }
@@ -644,7 +617,6 @@ footer .social-icons li i {
     margin: 0 0 30px 0;
   }
 
-  /* header */
   header .content-wrapper {
     display: flex;
     justify-content: center;
@@ -675,12 +647,11 @@ footer .social-icons li i {
     max-width: 80%;
   }
 
-  /* portfolio */
   .portfolio-wrapper {
     justify-content: space-around;
   }
 
-  .home-portfolio-piece {
+  .portfolio {
     width: 45%;
     align-items: center;
   }
@@ -699,17 +670,15 @@ footer .social-icons li i {
   }
 
   .skill,
-  .tool {
-    /*  width: auto; */
+  .stack {
     width: 45%;
   }
 
   .language-wrapper p,
-  .tool-wrapper p {
+  .stack-wrapper p {
     padding: 15px 0;
   }
 
-  /* about */
   .about-content-wrapper {
     display: flex;
     justify-content: center;
@@ -724,7 +693,6 @@ footer .social-icons li i {
     text-align: left;
   }
 
-  /* Footer */
   .contact-wrapper {
     display: flex;
     justify-content: space-between;
@@ -762,7 +730,6 @@ footer .social-icons li i {
 
 @media only screen and (min-width:1024px) {
 
-  /* added for landscape tablets and iPad Pro */
   .content-wrapper {
     max-width: 900px;
   }
@@ -774,12 +741,11 @@ footer .social-icons li i {
 
 @media only screen and (min-width:1200px) {
 
-  /*-----------------------Desktop styles here------------------------------*/
+  /*-----------------------Desktop styles------------------------------*/
   .content-wrapper {
     max-width: 1450px;
   }
 
-  /* font styles */
   h1 {
     font-size: 4rem;
   }
@@ -815,12 +781,10 @@ footer .social-icons li i {
 
   .project-link,
   .language-wrapper p,
-  .tool-wrapper p {
+  .stack-wrapper p {
     font-size: 1rem;
   }
 
-  /* element margins */
-  /* the list element have 20px of bottom margin already */
   header {
     padding-top: 80px;
     padding-bottom: 140px;
@@ -899,7 +863,6 @@ footer .social-icons li i {
     margin: 0 0 30px 0;
   }
 
-  /* header */
   header .content-wrapper {
     justify-content: flex-end;
   }
@@ -929,18 +892,15 @@ footer .social-icons li i {
     max-width: 70%;
   }
 
-  /* portfolio */
-  .home-portfolio-piece {
+  .portfolio {
     width: 45%;
   }
 
-  /* skills */
   .skill,
-  .tool {
+  .stack {
     width: 30%;
   }
 
-  /* about */
   .about-content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -956,7 +916,6 @@ footer .social-icons li i {
     width: 58%;
   }
 
-  /* contact */
   footer .content-wrapper {
     max-width: 70%;
   }
@@ -968,89 +927,7 @@ footer .social-icons li i {
 }
 
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
 
