@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* -------------------- General Styles -------------------- */
  
 html {
 	font-size: 16px;
@@ -189,28 +189,15 @@ footer {
   width: 100%;
 }
 
-header {
-  padding-top: 60px;
-  padding-bottom: 30px;
-}
-
 nav {
   margin-bottom: 60px;
 }
 
-#work {
-  padding-top: 80px;
-  padding-bottom: 60px;
-}
-
-#skills {
-  padding-bottom: 80px;
-  padding-top: 60px;
-}
-
+#work
+#skills 
 #about {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer {
@@ -241,37 +228,18 @@ figure {
   margin: 0 0 30px 0;
 }
 
-#contact h4 {
-  margin-bottom: 30px;
-}
-
-.contact-info {
-  margin: 0 0 60px 0;
-}
-
-.contact-follow {
-  margin: 0 0 60px 0;
-}
-
-.contact-title {
-  margin: 0 0 40px 0;
-}
-
-.social-icons {
-  margin-bottom: 60px;
-}
-
 /* -------------------- Header -------------------- */
 
 header {
   background-color: #e2e3ed;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 header nav ul li {
   text-transform: uppercase;
   font-size: .75em;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 nav ul {
@@ -411,6 +379,26 @@ footer .social-icons li i {
   color: #453e4f;
 }
 
+#contact h4 {
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  margin: 0 0 60px 0;
+}
+
+.contact-follow {
+  margin: 0 0 60px 0;
+}
+
+.contact-title {
+  margin: 0 0 40px 0;
+}
+
+.social-icons {
+  margin-bottom: 60px;
+}
+
 .copyright {
   width: 100%;
 }
@@ -511,35 +499,6 @@ footer .social-icons li i {
     max-width: 640px;
   }
 
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 1.25rem;
-  }
-
-  h5 {
-    font-size: 1.5rem;
-  }
-
-  header nav ul li {
-    font-size: 1rem;
-  }
-
-  header {
-    padding-top: 60px;
-    padding-bottom: 80px;
-  }
-
   nav {
     margin: 0 0 80px 0;
   }
@@ -554,15 +513,13 @@ footer .social-icons li i {
 
   footer {
     padding: 140px 0;
+    padding-bottom: 80px;
   }
 
   #about {
     padding: 80px 0;
   }
 
-  footer {
-    padding-bottom: 80px;
-  }
 
   h2 {
     margin-top: 80px;
@@ -727,16 +684,6 @@ footer .social-icons li i {
   }
 }
 
-@media only screen and (min-width:1024px) {
-
-  .content-wrapper {
-    max-width: 900px;
-  }
-
-  .about-info h3 {
-    font-size: 3.5rem;
-  }
-}
 
 @media only screen and (min-width:1200px) {
 
@@ -784,11 +731,6 @@ footer .social-icons li i {
     font-size: 1rem;
   }
 
-  header {
-    padding-top: 80px;
-    padding-bottom: 140px;
-  }
-
   nav {
     margin-bottom: 80px;
   }
@@ -807,7 +749,7 @@ footer .social-icons li i {
   }
 
   footer {
-    padding: 140px 0 140px 0;
+    padding: 80px 0 80px 0;
   }
 
   h2 {
@@ -877,7 +819,7 @@ footer .social-icons li i {
 
   nav ul li a:hover,
   nav #contact-link:hover {
-    background-color: #F8C6C6;
+    background-color: #F8D697;
     color: #453E4F;
     padding: 10px 10px;
     border-radius: 30px;
