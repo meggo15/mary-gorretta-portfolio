@@ -126,7 +126,7 @@ h2 {
   width: 100%;
   font-weight: 400;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
  
@@ -231,9 +231,11 @@ figure {
 /* -------------------- Header -------------------- */
 
 header {
-  background-color: #e2e3ed;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  background: url('../img/pexels-lukas.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 180px;
 }
 
 header nav ul li {
@@ -252,6 +254,10 @@ nav #contact-link {
   background-color: #E9B14C;
   padding: 10px 10px;
   border-radius: 30px;
+}
+
+.home {
+  padding-bottom: 80px;
 }
 
 header h1 {
@@ -521,7 +527,7 @@ footer .social-icons li i {
 
 
   h2 {
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   .portfolio-header {
@@ -752,7 +758,7 @@ footer .social-icons li i {
   }
 
   h2 {
-    margin: 40px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
   .portfolio-header {
