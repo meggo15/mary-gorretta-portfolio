@@ -231,7 +231,7 @@ figure {
 /* -------------------- Header -------------------- */
 
 header {
-  background: url('../img/pexels-lukas.jpg');
+  background-color: #e2e3ed;
   background-size: cover;
   background-position: center;
   padding-top: 20px;
@@ -408,6 +408,11 @@ footer .social-icons li i {
   width: 100%;
 }
 
+.copyright a {
+  text-decoration: underline;
+  color:#E9B14C;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -567,7 +572,7 @@ footer .social-icons li i {
   }
 
   .contact-info {
-    margin: 80px 0;
+    margin: 40px 0;
   }
 
   .contact-follow {
@@ -754,7 +759,7 @@ footer .social-icons li i {
   }
 
   footer {
-    padding: 80px 0 80px 0;
+    padding: 20px 0 20px 0;
   }
 
   h2 {
@@ -798,11 +803,11 @@ footer .social-icons li i {
   }
 
   .contact-info {
-    margin: 80px 0 40px 0;
+    margin: 40px 0 40px 0;
   }
 
   .contact-follow {
-    margin: 80px 0 40px 0;
+    margin: 40px 0 20px 0;
   }
 
   .contact-title {
@@ -816,6 +821,7 @@ footer .social-icons li i {
   header nav {
     justify-content: flex-end;
     width: 45%;
+    font-size: 1.25rem;
   }
 
   nav ul li a {
