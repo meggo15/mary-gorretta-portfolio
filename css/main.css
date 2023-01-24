@@ -137,6 +137,7 @@ h3 {
   width: 100%;
   margin: 0;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 h4 {
@@ -218,6 +219,7 @@ figure {
 
 .skills-header {
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .about-info h3 {
@@ -231,12 +233,10 @@ figure {
 /* -------------------- Header -------------------- */
 
 header {
-  background-color: #e2e3ed;
-  background-size: cover;
-  background-position: center;
-  padding-top: 20px;
-  padding-bottom: 180px;
-}
+    background-color: #e2e3ed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
 header nav ul li {
   text-transform: uppercase;
@@ -256,9 +256,6 @@ nav #contact-link {
   border-radius: 30px;
 }
 
-.home {
-  padding-bottom: 80px;
-}
 
 header h1 {
   width: 100%;
@@ -389,7 +386,7 @@ footer .social-icons li i {
 }
 
 .contact-info {
-  margin: 0 0 60px 0;
+  margin: 0 0 20px 0;
 }
 
 .contact-follow {
