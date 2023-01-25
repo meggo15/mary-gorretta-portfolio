@@ -235,7 +235,7 @@ figure {
 header {
     background-color: #e2e3ed;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
 
 header nav ul li {
@@ -390,15 +390,11 @@ footer .social-icons li i {
 }
 
 .contact-follow {
-  margin: 0 0 60px 0;
+  margin: 0 0 20px 0;
 }
 
 .contact-title {
   margin: 0 0 40px 0;
-}
-
-.social-icons {
-  margin-bottom: 60px;
 }
 
 .copyright {
@@ -511,7 +507,7 @@ footer .social-icons li i {
   }
 
   #work {
-    padding-top: 80px;
+    padding-top: 20px;
   }
 
   #skills {
@@ -521,10 +517,6 @@ footer .social-icons li i {
   footer {
     padding: 140px 0;
     padding-bottom: 80px;
-  }
-
-  #about {
-    padding: 80px 0;
   }
 
 
@@ -545,7 +537,7 @@ footer .social-icons li i {
   }
 
   #skills {
-    padding-top: 80px;
+    padding-top: 20px;
   }
 
   .skills-header {
@@ -553,7 +545,7 @@ footer .social-icons li i {
   }
 
   #skills h4 {
-    margin: 40px 0 20px 0;
+    margin: 20px 0;
   }
 
   .about-info h3 {
@@ -725,9 +717,10 @@ footer .social-icons li i {
   }
 
   .about-info h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
+  
   p {
     font-size: 1.25rem;
   }
@@ -752,7 +745,7 @@ footer .social-icons li i {
 
   #about {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
   }
 
   footer {
@@ -796,9 +789,11 @@ footer .social-icons li i {
   }
 
   .about-text {
-    margin: 0 0 30px 0;
+    margin: 30px 0 30px 0;
+    text-align: left;
   }
 
+  
   .contact-info {
     margin: 40px 0 40px 0;
   }
