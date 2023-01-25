@@ -98,6 +98,12 @@ body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
 }
+
+.home {
+  background-color: #F8D697;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
  
 ul, 
 ol {
@@ -172,6 +178,7 @@ address {
 }
 
 header,
+.home,
 #work,
 #skills,
 #about,
@@ -256,6 +263,10 @@ nav #contact-link {
   border-radius: 30px;
 }
 
+.nav-content-wrapper {
+  padding-bottom: 0;
+}
+
 
 header h1 {
   width: 100%;
@@ -329,13 +340,14 @@ header h2 {
 }
 
 #about {
-  width: 100%;
+  background-color: #e2e3ed;
+  padding-top: 30px;
 }
 
 /* -------------------- Base Footer Styles -------------------- */
 
 footer {
-  background-color: #e2e3ed;
+  background-color: #ffffff;
 }
 
 footer .contact-wrapper {
@@ -769,7 +781,7 @@ footer .social-icons li i {
   }
 
   #skills {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   #skills .content-wrapper {
@@ -829,7 +841,7 @@ footer .social-icons li i {
   }
 
   .home {
-    max-width: 95%;
+    max-width: 100%;
   }
 
   .home h2 {
